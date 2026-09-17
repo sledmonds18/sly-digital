@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -555,22 +557,16 @@ export default function Home() {
 {/* Graphic Design */}
 <div className="group mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/5 transition duration-300 hover:border-purple-500/30">
 
-  {/* Project Preview */}
-  <div className="flex min-h-[320px] items-center justify-center bg-gradient-to-br from-purple-950 via-black to-gray-900 p-8">
-    <div className="text-center">
-      <p className="text-sm uppercase tracking-[0.3em] text-purple-400">
-        Featured Collection
-      </p>
-
-      <h3 className="mt-4 text-4xl font-bold md:text-5xl">
-        Graphic Design
-      </h3>
-
-      <p className="mt-4 text-gray-400">
-        Flyers, promotional graphics & visual designs
-      </p>
-    </div>
-  </div>
+{/* Project Preview */}
+<div className="overflow-hidden bg-gray-950">
+  <Image
+    src="/images/sametro-design.jpg"
+    alt="Sametro promotional graphic design"
+    width={1600}
+    height={900}
+    className="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+  />
+</div>
 
   {/* Project Information */}
   <div className="p-8 md:p-10">
@@ -747,71 +743,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 px-6 py-10">
-        <div className="mx-auto flex max-w-6xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
-
-          <div>
-            <p className="text-lg font-bold">
-              SLY<span className="text-blue-500">.</span>DIGITAL
-            </p>
-
-            <p className="mt-2 text-sm text-gray-500">
-              Building digital experiences with technology and creativity.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-6 text-sm text-gray-400">
-            <a
-              href="#about"
-              className="transition hover:text-blue-500"
-            >
-              About
-            </a>
-
-            <a
-              href="#experience"
-              className="transition hover:text-blue-500"
-            >
-              Experience
-            </a>
-
-            <a
-              href="#services"
-              className="transition hover:text-blue-500"
-            >
-              Services
-            </a>
-
-            <a
-              href="#skills"
-              className="transition hover:text-blue-500"
-            >
-              Skills
-            </a>
-
-            <a
-              href="#work"
-              className="transition hover:text-blue-500"
-            >
-              Work
-            </a>
-
-            <a
-              href="#contact"
-              className="transition hover:text-blue-500"
-            >
-              Contact
-            </a>
-          </div>
-
-        </div>
-
-        <div className="mx-auto mt-8 max-w-6xl border-t border-white/10 pt-6">
-          <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Sly Digital. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
     );
   }
