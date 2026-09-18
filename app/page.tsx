@@ -9,24 +9,24 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="flex min-h-screen items-center px-6 pt-24">
+      <section className="flex min-h-screen items-center px-6 pt-24 animate-fade-in">
         <div className="mx-auto w-full max-w-6xl">
-          <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-gray-400">
+          <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-gray-400 animate-fade-up">
             Welcome to Sly Digital
           </p>
 
-          <h1 className="max-w-4xl text-5xl font-bold leading-tight md:text-7xl">
+          <h1 className="max-w-4xl text-5xl font-bold leading-tight md:text-7xl animate-fade-up">
             I build digital experiences that
             look good and work well.
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-400">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-400 animate-fade-up">
             I&apos;m Sly, an IT Technical Support Officer, Frontend Developer,
             UI Designer and Graphic Designer passionate about technology,
             creativity and building useful digital experiences.
           </p>
 
-                <div className="mt-8 flex flex-wrap gap-4">
+              <div className="mt-8 flex flex-wrap gap-4 animate-fade-up">
           <a
             href="#work"
             className="rounded-full bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
@@ -111,8 +111,7 @@ export default function Home() {
           troubleshooting, customer assistance and digital technology.
         </p>
       </div>
-
-      <div className="mt-12 rounded-3xl border border-white/10 bg-white/5 p-8 md:p-10">
+<div className="mt-12 rounded-3xl border border-white/10 bg-white/5 p-8 md:p-10 transition duration-300 hover:border-blue-500/30">
         <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
           <div>
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-500">
@@ -529,7 +528,7 @@ export default function Home() {
     </div>
 
     {/* Project Links */}
-    <div className="mt-8 flex flex-wrap gap-4">
+    <div className="mt-8 flex flex-wrap gap-4 animate-fade-up">
       <a
         href="https://sports-digest.vercel.app"
         target="_blank"
@@ -690,10 +689,11 @@ export default function Home() {
 
 
               {/* Contact Section */} 
+              
         <section id="contact" className="px-6 py-24">
           <div className="mx-auto max-w-6xl">
 
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12">
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12 transition duration-300 hover:border-blue-500/30">
 
               <div className="max-w-3xl">
                 <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-blue-500">
