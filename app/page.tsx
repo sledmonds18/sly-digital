@@ -63,7 +63,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="px-6 py-24">
+      <section id="about" className="px-6 py-24 animate-fade-up">
         <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2 md:items-center">
           
           <div>
@@ -95,7 +95,7 @@ export default function Home() {
       </section>
 
         {/* Experience Section */}
-  <section id="experience" className="px-6 py-24">
+  <section id="experience" className="px-6 py-24 animate-fade-up">
     <div className="mx-auto max-w-6xl">
       <div className="max-w-2xl">
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-blue-500">
@@ -183,10 +183,10 @@ export default function Home() {
 
             {/* Services Section */}
 
-<section id="services" className="px-6 py-24">
+<section id="services" className="px-6 py-24 animate-fade-up">
   <div className="mx-auto max-w-6xl">
 
-```
+
 <div className="max-w-2xl">
   <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-blue-500">
     What I Do
@@ -276,17 +276,17 @@ export default function Home() {
   </div>
 
 </div>
-```
+
 
   </div>
 </section>
 
             {/* Skills Section */}
 
-<section id="skills" className="px-6 py-24">
+<section id="skills" className="px-6 py-24 animate-fade-up">
   <div className="mx-auto max-w-6xl">
 
-```
+
 {/* Section Heading */}
 <div className="max-w-2xl">
   <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-blue-500">
@@ -435,7 +435,7 @@ export default function Home() {
   </div>
 
 </div>
-```
+
 
   </div>
 </section>
@@ -443,10 +443,10 @@ export default function Home() {
 
            {/* Projects Section */}
 
-<section id="work" className="px-6 py-24">
+<section id="work" className="px-6 py-24 animate-fade-up">
   <div className="mx-auto max-w-6xl">
 
-```
+
 {/* Section Heading */}
 <div className="max-w-2xl">
   <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-blue-500">
@@ -551,7 +551,7 @@ export default function Home() {
   </div>
 
 </div>
-  ```    
+    
 
 {/* Graphic Design */}
 <div className="group mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/5 transition duration-300 hover:border-purple-500/30">
@@ -614,7 +614,7 @@ export default function Home() {
   </div>
 </div>
 
-  ```
+
 
 {/* UI Design */}
 <div className="group mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/5 transition duration-300 hover:border-cyan-500/30">
@@ -682,7 +682,7 @@ export default function Home() {
 
   </div>
 </div>
-```
+
 
   </div>
 </section>
@@ -690,7 +690,7 @@ export default function Home() {
 
               {/* Contact Section */} 
               
-        <section id="contact" className="px-6 py-24">
+        <section id="contact" className="px-6 py-24 animate-fade-up">
           <div className="mx-auto max-w-6xl">
 
     <div className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12 transition duration-300 hover:border-blue-500/30">
